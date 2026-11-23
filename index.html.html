@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lake Mary Rays | Elite Feeder Baseball</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        dark: { 900: '#0B0F19', 800: '#111827', 700: '#1F2937' },
+                        teal: { 400: '#2DD4BF', 500: '#14B8A6', 600: '#0D9488' }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-dark-900 text-gray-100 font-sans antialiased selection:bg-teal-500 selection:text-dark-900">
+
+    <!-- Top Announcement Bar -->
+    <div class="bg-teal-600 text-dark-900 font-bold text-xs sm:text-sm py-2 text-center px-4 tracking-wide">
+        <i class="fa-solid fa-bolt mr-2"></i> Spring Tryouts Open - Seminole County, FL - Perfect Game Tournament Circuit
+    </div>
+
+    <!-- Header / Navigation -->
+    <header class="sticky top-0 z-50 bg-dark-900/95 backdrop-blur border-b border-dark-700">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-4">
+                <img src="LMLOGO.png" alt="Lake Mary Rays Logo" class="h-10 w-auto">
+                <div class="flex flex-col">
+                    <span class="text-white font-black tracking-wider text-base uppercase">Lake Mary</span>
+                    <span class="text-teal-400 font-bold tracking-widest text-xs uppercase">Rays</span>
+                </div>
+                <div class="hidden sm:flex items-center space-x-2 pl-4 border-l border-dark-700">
+                    <span class="bg-dark-800 text-gray-300 border border-dark-700 text-xs font-bold px-2.5 py-1 rounded-lg">PG</span>
+                    <span class="text-xs text-gray-400 font-medium tracking-wide">Perfect Game</span>
+                </div>
+            </div>
+            <nav class="hidden md:flex space-x-8 text-sm font-medium">
+                <a href="#about" class="hover:text-teal-400 transition">About</a>
+                <a href="#tryouts" class="hover:text-teal-400 transition">Tryouts</a>
+                <a href="#registration" class="hover:text-teal-400 transition">Register</a>
+                <a href="#contact" class="hover:text-teal-400 transition">Contact</a>
+            </nav>
+            <div>
+                <a href="#registration" class="bg-teal-500 hover:bg-teal-400 text-dark-900 font-extrabold px-5 py-2.5 rounded-xl text-sm shadow-lg shadow-teal-500/20 transition transform hover:-translate-y-0.5">
+                    Register Now
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative overflow-hidden py-20 lg:py-28 border-b border-dark-700">
+        <video autoplay loop muted playsinline class="absolute inset-0 w-full h-full object-cover -z-10">
+            <source src="Lake Mary Rays promo.mp4" type="video/mp4">
+        </video>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+            <span class="inline-block bg-teal-500/10 text-teal-400 border border-teal-500/30 text-xs font-bold uppercase tracking-widest px-4 py-1.5 rounded-full mb-6">
+                Official Feeder Organization
+            </span>
+            <h1 class="text-4xl sm:text-6xl font-black tracking-tight text-white mb-6 uppercase">
+                Welcome to the <span class="text-teal-400">Lake Mary Rays</span>
+            </h1>
+            <p class="max-w-2xl mx-auto text-lg sm:text-xl text-gray-300 mb-10 leading-relaxed">
+                We are a new, elite community feeder baseball team based in Seminole County, Florida, built to develop high-level character, fierce competitive drive, and elite mechanical execution.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#registration" class="bg-teal-500 hover:bg-teal-400 text-dark-900 font-black px-8 py-4 rounded-xl text-base shadow-xl shadow-teal-500/20 transition transform hover:-translate-y-0.5">
+                    <i class="fa-solid fa-baseball mr-2"></i> Register for Tryouts / Team
+                </a>
+                <a href="#about" class="bg-dark-800 hover:bg-dark-700 border border-dark-700 text-gray-200 font-bold px-8 py-4 rounded-xl text-base transition">
+                    Organization Info
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section / Coaches -->
+    <section id="about" class="py-20 bg-dark-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <span class="text-teal-400 font-bold uppercase tracking-widest text-xs block mb-2">Elite Development</span>
+                    <h2 class="text-3xl sm:text-4xl font-black text-white mb-6 uppercase tracking-tight">Built to Make a Massive Impact</h2>
+                    <p class="text-gray-300 text-base leading-relaxed mb-6">
+                        The Lake Mary Rays were founded with a singular mission: to bridge elite youth baseball development with high-exposure tournament competition. As a premier feeder organization under Coach Lu, our players receive professional-grade instruction in pitching, hitting, and defensive mechanics.
+                    </p>
+                    <ul class="space-y-3 text-gray-300 text-sm mb-8">
+                        <li class="flex items-center"><i class="fa-solid fa-check text-teal-400 mr-3"></i> 14-Game Spring Season Schedule & League Play</li>
+                        <li class="flex items-center"><i class="fa-solid fa-check text-teal-400 mr-3"></i> Weekly Field Practices & Professional Cage Sessions</li>
+                        <li class="flex items-center"><i class="fa-solid fa-check text-teal-400 mr-3"></i> High-Exposure Perfect Game Tournament Circuit</li>
+                    </ul>
+                </div>
+                <!-- Updated Coach Card -->
+                <div class="bg-dark-800 border border-dark-700 rounded-2xl p-8 shadow-xl relative">
+                    <div class="absolute top-6 right-6 bg-teal-500/10 text-teal-400 border border-teal-500/30 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+                        Head Coach
+                    </div>
+                    <div class="flex items-center space-x-4 mb-6">
+                        <img src="coachlurays.jpg" alt="Coach Lu" class="w-14 h-14 object-cover rounded-2xl">
+                        <div>
+                            <h3 class="text-xl font-bold text-white">Coach Lu</h3>
+                            <p class="text-xs text-teal-400 font-semibold uppercase tracking-wider">Director of Player Development</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 text-sm leading-relaxed mb-6">
+                        Coach Lu brings extensive coaching experience, years of advanced player training, and a high-level competitive background. Having played collegiate baseball at the JUCO and NCAA Division II levels, followed by professional baseball at the High-A level where he mastered the middle infield as a second base specialist, he brings elite instruction to the program. With extensive experience coaching elite youth baseball, elite high school travel ball, and the Perfect Game circuit, Coach Lu is thrilled and proud to be a part of the Lake Mary Rays!
+                    </p>
+                    <div class="grid grid-cols-2 gap-4 pt-4 border-t border-dark-700 text-xs text-gray-400">
+                        <div><strong class="text-white block mb-0.5">Playing Career</strong> JUCO, NCAA II & High-A Pro (2B Master)</div>
+                        <div><strong class="text-white block mb-0.5">Experience</strong> Elite Youth, HS Travel & Perfect Game</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Section -->
+    <section id="registration" class="py-20 bg-dark-800/50 border-t border-dark-700">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <span class="text-teal-400 font-bold uppercase tracking-widest text-xs block mb-2">Secure Your Spot</span>
+                <h2 class="text-3xl sm:text-4xl font-black text-white uppercase tracking-tight mb-3">Player & Tryout Registration</h2>
+                <p class="text-gray-400">Complete the form below to register for tryouts ($25) or commit to the Spring season team ($550).</p>
+            </div>
+
+            <div class="bg-dark-800 border border-teal-500/30 rounded-2xl p-8 sm:p-10 shadow-2xl">
+                <form id="registrationForm" action="https://api.web3forms.com/submit" method="POST" class="space-y-6">
+                    <input type="hidden" name="access_key" value="c6ad16d7-4f5f-4b9a-bf38-6dd3414723c3">
+                    <input type="hidden" name="subject" value="🚨 NEW LAKE MARY RAYS REGISTRATION!">
+
+                    <div class="grid sm:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-sm font-semibold text-gray-300 mb-2">Player Full Name *</label>
+                            <input type="text" name="player_name" required class="w-full bg-dark-900 border border-dark-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-teal-500 transition" placeholder="Enter player name">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold text-gray-300 mb-2">Player Age / Graduation Year *</label>
+                            <input type="text" name="player_age_grad" required class="w-full bg-dark-900 border border-dark-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-teal-500 transition" placeholder="e.g. 13U / Class of 2030">
+                        </div>
+                    </div>
+
+                    <div class="grid sm:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-sm font-semibold text-gray-300 mb-2">Parent / Guardian Name *</label>
+                            <input type="text" name="parent_name" required class="w-full bg-dark-900 border border-dark-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-teal-500 transition" placeholder="Parent full name">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold text-gray-300 mb-2">Contact Phone Number *</label>
+                            <input type="tel" name="phone" required class="w-full bg-dark-900 border border-dark-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-teal-500 transition" placeholder="(405) 706-9325">
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-semibold text-gray-300 mb-2">Email Address *</label>
+                        <input type="email" name="email" required class="w-full bg-dark-900 border border-dark-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-teal-500 transition" placeholder="name@example.com">
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-semibold text-gray-300 mb-2">Registration Type *</label>
+                        <select id="registrationType" name="registration_type" required class="w-full bg-dark-900 border border-dark-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-teal-500 transition">
+                            <option value="Spring Tryout ($25)">Tryout Registration ($25)</option>
+                            <option value="Full Spring Team Commitment ($550)">Full Spring Team Commitment ($550)</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-semibold text-gray-300 mb-2">Primary Position(s)</label>
+                        <input type="text" name="positions" class="w-full bg-dark-900 border border-dark-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-teal-500 transition" placeholder="e.g. SS, RHP, OF">
+                    </div>
+
+                    <!-- Payment Information Box -->
+                    <div class="bg-dark-900/90 border border-teal-500/30 rounded-xl p-6">
+                        <h3 class="text-teal-400 font-bold mb-3 flex items-center">
+                            <i class="fa-solid fa-credit-card mr-2"></i> Checkout & Payment Options
+                        </h3>
+                        <p class="text-sm text-gray-300 mb-4 leading-relaxed">
+                            Clicking <strong>Submit Registration & Pay</strong> below will save your registration and take you directly to our secure card checkout. Prefer Zelle, PayPal, or Cash? Send via <strong class="text-white">405-706-9325</strong> or pay on-site at tryouts.
+                        </p>
+                        <div class="flex flex-wrap gap-3">
+                            <a href="https://buy.stripe.com/5kQ14p1mO5Jke3O3Trdwc00" target="_blank" class="bg-teal-500/10 hover:bg-teal-500/20 text-teal-400 border border-teal-500/40 text-xs font-bold px-4 py-2.5 rounded-lg transition">
+                                <i class="fa-solid fa-arrow-up-right-from-square mr-1"></i> Direct Tryout Checkout ($25)
+                            </a>
+                            <a href="https://buy.stripe.com/eVq6oJ4z04FgcZKblTdwc01" target="_blank" class="bg-teal-500/10 hover:bg-teal-500/20 text-teal-400 border border-teal-500/40 text-xs font-bold px-4 py-2.5 rounded-lg transition">
+                                <i class="fa-solid fa-arrow-up-right-from-square mr-1"></i> Direct Team Checkout ($550)
+                            </a>
+                            <button type="button" onclick="navigator.clipboard.writeText('4057069325'); alert('Phone number 405-706-9325 copied to clipboard!');" class="bg-dark-800 hover:bg-dark-700 text-gray-300 border border-dark-700 text-xs font-bold px-4 py-2.5 rounded-lg transition">
+                                <i class="fa-solid fa-copy mr-1"></i> Copy Zelle/PayPal (405-706-9325)
+                            </button>
+                        </div>
+                    </div>
+
+                    <button type="submit" id="submitBtn" class="w-full bg-teal-500 hover:bg-teal-400 text-dark-900 font-black py-4 rounded-xl text-base shadow-xl shadow-teal-500/20 transition transform hover:-translate-y-0.5 uppercase tracking-wider">
+                        Submit Registration & Pay
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-dark-900 border-t border-dark-700 py-12 text-center text-gray-400 text-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <p class="mb-2 text-white font-bold text-base">Lake Mary Rays Baseball Club</p>
+            <p class="mb-4">Seminole County, Florida | Contact: <a href="mailto:lakemaryrays@gmail.com" class="text-teal-400 underline">lakemaryrays@gmail.com</a></p>
+            <p>&copy; 2026 Lake Mary Rays. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('registrationForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            const form = e.target;
+            const submitBtn = document.getElementById('submitBtn');
+            const regType = document.getElementById('registrationType').value;
+
+            submitBtn.disabled = true;
+            submitBtn.innerText = 'Saving Registration & Redirecting...';
+
+            try {
+                await fetch(form.action, {
+                    method: 'POST',
+                    body: new FormData(form),
+                    headers: { 'Accept': 'application/json' }
+                });
+            } catch (err) {
+                console.error('Form submission error:', err);
+            }
+
+            if (regType.includes('550')) {
+                window.location.href = 'https://buy.stripe.com/eVq6oJ4z04FgcZKblTdwc01';
+            } else {
+                window.location.href = 'https://buy.stripe.com/5kQ14p1mO5Jke3O3Trdwc00';
+            }
+        });
+    </script>
+
+</body>
+</html>
